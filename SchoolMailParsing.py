@@ -2,7 +2,7 @@
 
 # Target Site : http://mail.mokpo.ac.kr
 
-# Current Edit Working
+# Current Successfully Worked 2019/02/27
 
 import http.cookiejar
 import urllib.parse
@@ -18,6 +18,7 @@ urllib.request.install_opener(opener)
 Id = str(input("Your ID : "))
 Pw = str(getpass("Your Password : "))
 
+# Urlencode parameter
 values = {
     "LoginID":Id,
     "x":"0",
@@ -48,6 +49,7 @@ try:
 except Exception as e:
     print(e)
 
+# Filtering List Data
 UrlFilter1 = []
 UrlFilter2 = []
 UrlFilter3 = []
@@ -73,7 +75,6 @@ for rd in UrlFilter3:
     SaveMailIndex2 = rd.find("')")
     if SaveMailIndex != -1:
         ClearUrl = rd[SaveMailIndex::].replace("')",'')
-       # print(ClearUrl)
         MailLIst.append(ClearUrl)
 
 GetMailBox = urllib.request.Request(BaseURL+MailLIst[0], params)
@@ -82,9 +83,6 @@ res2 = opener.open(GetMailBox)
 soup = BeautifulSoup(res2,"html.parser")
 Table_Find = soup.find("td",{"width":"100%"})
 Table_Find2 = Table_Find.find("table",{"class":"dataTable"})
-
-# Text Parsing
-# 1) findAll("td",{"align":"left})
 
 DataString = ""
 
@@ -115,21 +113,17 @@ for rd in ScrapingSplitList:
         ScrapingSplitList2.append(tmp)
         tmpstr = str()
 
-
 for rd,count in zip(ScrapingSplitList2,range(len(ScrapingSplitList2))):
     tmp = []
-
     try:
         if ScrapingSplitList2[count] == ScrapingSplitList2[count+1]:
             ScrapingSplitList3.append(ScrapingSplitList2[count])
-
         if count+1 == max(range(len(ScrapingSplitList2))):
             ScrapingSplitList3.append(ScrapingSplitList2[count])
             ScrapingSplitList3.append(ScrapingSplitList2[count+1])
 
     except:
         pass
-
 
 from pprint import pprint
 pprint(ScrapingSplitList3)
