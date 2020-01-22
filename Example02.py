@@ -1,8 +1,9 @@
 # 멀티 프로세싱을 적용한 EXE 파일 취약점 검색 스크립트
 import psutil, datetime
-import requests,os
+import requests,os,sys
 from bs4 import BeautifulSoup
 from multiprocessing import Process, Manager
+
 
 current_process_list = []
 current_process_name = []
@@ -55,8 +56,9 @@ def get_vul_info(Mobj_, min, max):
         except:
             pass
 
+def crawling_():
+    Mobj = Manager().dict()
 
-if __name__ == '__main__':
     for x in psutil.process_iter():
         # start_time = datetime.datetime.fromtimestamp(x.create_time()).strftime("%Y-%m-%d %H:%M:%S")
         # current_process_list.append((x.name(), start_time))
@@ -72,7 +74,6 @@ if __name__ == '__main__':
     get_range = get_divide_range(len(fileList), 3)
     print(get_range)
 
-    Mobj = Manager().dict()
     MpList = []
 
     print(Mobj)
@@ -94,5 +95,9 @@ if __name__ == '__main__':
 
     from pprint import pprint
 
-    for key,val in Mobj.items():
-        print("취약점이 발견된 EXE 파일 ",key ," ::::",val)
+    # for key, val in Mobj.items():
+    #     print("취약점이 발견된 EXE 파일 ", key, " ::::", val)
+    return Mobj
+
+if __name__ == '__main__':
+    crawling_()
