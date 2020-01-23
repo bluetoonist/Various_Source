@@ -1,8 +1,8 @@
 # 멀티 프로세싱을 적용한 EXE 파일 취약점 검색 스크립트
 import psutil, datetime
-import requests,os,sys
+import requests,os,sys,time
 from bs4 import BeautifulSoup
-from multiprocessing import Process, Manager
+from multiprocessing import Process, Manager,cpu_count
 
 
 current_process_list = []
@@ -20,22 +20,10 @@ temp_dict = {}
 
 
 def get_divide_range(num, p):
-    result = 0
-    list1 = []
-    allocate = int(num / p)
-
-    for x in range(p):
-        list1.append(allocate)
-    list1[p - 1] += (num % p)
-
-    for x, y in zip(list1, range(0, len(list1) + 1)):
-        result += x
-        list1[y] = result
+    list1 = [x for x in range(1, num, p)]
     return list1
 
-
 fileList = []
-
 
 def get_vul_info(Mobj_, min, max):
     for proc_name in range(min, max):
@@ -48,7 +36,6 @@ def get_vul_info(Mobj_, min, max):
             vulnerbility = vulnerable.find_all("a")
 
             for find_vulinfo in vulnerbility:
-                # find_vulinfo.find("div", {"class": "resultblock__info-title"}).text.strip()
                 get_vulinfo_text = find_vulinfo.find("div", {"class": "resultblock__info-title"}).text.strip()
                 Mobj_[fileList[proc_name]] = get_vulinfo_text
             else:
@@ -57,6 +44,7 @@ def get_vul_info(Mobj_, min, max):
             pass
 
 def crawling_():
+    MpList = []
     Mobj = Manager().dict()
 
     for x in psutil.process_iter():
@@ -69,22 +57,16 @@ def crawling_():
             read_ = read_.replace("\n", "")
             fileList.append(read_)
 
-    print(fileList)
-
-    get_range = get_divide_range(len(fileList), 3)
+    print(len(fileList))
+    get_range = get_divide_range(len(fileList), p=int(cpu_count()))
     print(get_range)
 
-    MpList = []
-
-    print(Mobj)
 
     for loop in range(0, len(get_range)):
-
         if loop == 0:
-            # print(0,get_range[loop])
             MpList.append(Process(target=get_vul_info, args=(Mobj, 0, get_range[loop])))
+
         else:
-            # print(get_range[loop-1],get_range[loop])
             MpList.append(Process(target=get_vul_info, args=(Mobj, get_range[loop - 1], get_range[loop])))
 
     for _ in MpList:
@@ -100,4 +82,5 @@ def crawling_():
     return Mobj
 
 if __name__ == '__main__':
+    start_time = time.time()
     crawling_()
