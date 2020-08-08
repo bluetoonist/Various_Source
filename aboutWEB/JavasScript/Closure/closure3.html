@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function Hello(name) {
+        this._name = name;
+    }
+
+    Hello.prototype.say = function() {
+        console.log('Hello, ' +this._name);
+    }
+
+    var hello1 = new Hello("S");
+    var hello2 = new Hello("P");
+    var hello3 = new Hello("A");
+
+    hello1.say();
+    hello2.say();
+    hello3.say();
+    hello1._name = "anonymous";
+    hello1.say();
+
+</script>
+
+</html>

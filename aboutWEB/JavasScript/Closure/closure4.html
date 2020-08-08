@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    function hello(name) {
+        var _name = name;
+
+        return function() {
+            console.log('Hello,' +_name);
+        };
+    }
+
+    var hello1 = hello("S");
+    var hello2 = hello("P");
+    var hello3 = hello("A");
+
+    hello1();
+    hello2();
+    hello3();
+
+</script>
+
+</html>
