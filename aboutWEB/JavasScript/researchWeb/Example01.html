@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <title>homework1</title>
+
+    <link rel="stylesheet" href="./Example01.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+
+    <body>
+        <h2>Chat Chat</h2>
+        <div class="globalBox">
+
+            <div class="chatBoxWrap" data-side="Left">
+                <p class="chatTarget">나</p>
+                <div class="chatBox">
+                    <div class="speakLeft">
+                        <sub class="date"> 월 pm 04:22 </sub>
+                        <span class="talk">말말말</span>
+                        <button type="button" class="btnRemove hide" value='x'>X</button>
+                    </div>
+                </div><br />
+                <input type="text" id="inputMeText" style="width:80%" />
+                <button type="button" id="btnInputMe">입력</button>
+            </div>
+
+            <div class="chatBoxWrap" data-side="Right">
+                <p class="chatTarget">상대방</p>
+                <div class="chatBox">
+                    <div class="speakRight">
+                        <sub class="date"> 월 pm 04:22 </sub>
+                        <span class="talk">말말말</span>
+
+                    </div>
+                </div><br />
+                <input type="text" id="inputYouText" style="width:80%" /> <button type="button" id="btnInputYou">입력</button>
+            </div>
+
+        </div>
+
+        <button type="button" id="scrolltest">스크롤확인</button>
+    </body>
+    <script src="./Example01.js"></script>
+
+</html>
