@@ -1,0 +1,122 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/bd612ba/
+-2131921577	.idea/workspace.xml	/^    <session id="-2131921577">$/;"	i
+.btnRemove	aboutWEB/JavasScript/researchWeb/Example01.css	/^.btnRemove {$/;"	c
+.chatBox	aboutWEB/JavasScript/researchWeb/Example01.css	/^.chatBox {$/;"	c
+.chatBoxWrap	aboutWEB/JavasScript/researchWeb/Example01.css	/^.chatBoxWrap {$/;"	c
+.chatTarget	aboutWEB/JavasScript/researchWeb/Example01.css	/^.chatTarget {$/;"	c
+.date	aboutWEB/JavasScript/researchWeb/Example01.css	/^.date {$/;"	c
+.globalBox	aboutWEB/JavasScript/researchWeb/Example01.css	/^.globalBox {$/;"	c
+.hide	aboutWEB/JavasScript/researchWeb/Example01.css	/^.hide {$/;"	c
+.speakLeft	aboutWEB/JavasScript/researchWeb/Example01.css	/^.speakLeft {$/;"	c
+.speakRight	aboutWEB/JavasScript/researchWeb/Example01.css	/^.speakRight {$/;"	c
+.speakRight .talk	aboutWEB/JavasScript/researchWeb/Example01.css	/^.speakRight .talk {$/;"	c
+.talkRead	aboutWEB/JavasScript/researchWeb/Example01.css	/^.talkRead {$/;"	c
+9aebace7-ba78-471d-b1f3-e38c26c64af6	.idea/workspace.xml	/^      <changelist id="9aebace7-ba78-471d-b1f3-e38c26c64af6" name="Default Changelist" comment=""/;"	i
+9aebace7-ba78-471d-b1f3-e38c26c64af6	.idea/workspace.xml	/^    <list default="true" id="9aebace7-ba78-471d-b1f3-e38c26c64af6" name="Default Changelist" com/;"	i
+AnonymousFunctionbec8fc7d0100	aboutWEB/JavasScript/EventListener/evtListener.js	/^                timeId = setTimeout(function () {$/;"	f	function:window.onload.checkBySequen
+AnonymousFunctionbec8fc7d0200	aboutWEB/JavasScript/EventListener/evtListener.js	/^                timeId = setTimeout(function () {$/;"	f	function:window.onload.checkBySequen
+AnonymousFunctionbec8fc7d0300	aboutWEB/JavasScript/EventListener/evtListener.js	/^                    timeId = setTimeout(function () {$/;"	f	function:window.onload.startBkg
+AnonymousFunctionbec8fc7d0400	aboutWEB/JavasScript/EventListener/evtListener.js	/^                    timeId = setTimeout(function () {$/;"	f	function:window.onload.startBkg
+AnonymousFunctionbf966f0f0100	aboutWEB/JavasScript/Scope/ScopeLevel03.js	/^        return function(z) {$/;"	f	function:window.onload.makeAdder
+AnonymousFunctioncb085b580100	aboutWEB/JavasScript/researchWeb/Example01.js	/^$(document).ready(function() {$/;"	f
+AnonymousFunctioncb085b580200	aboutWEB/JavasScript/researchWeb/Example01.js	/^    $("#btnInputMe").click(function() { \/\/ 나 입력버튼$/;"	f
+AnonymousFunctioncb085b580300	aboutWEB/JavasScript/researchWeb/Example01.js	/^    $("#btnInputYou").click(function() { \/\/ 나 입력버튼$/;"	f
+AnonymousFunctioncb085b580400	aboutWEB/JavasScript/researchWeb/Example01.js	/^    $(".globalBox").on("click", ".speakItem", function() {$/;"	f
+AnonymousFunctioncb085b580500	aboutWEB/JavasScript/researchWeb/Example01.js	/^        mouseenter: function() {$/;"	f
+AnonymousFunctioncb085b580600	aboutWEB/JavasScript/researchWeb/Example01.js	/^            $('.btnRemove').click(function() {$/;"	f
+AnonymousFunctioncb085b580700	aboutWEB/JavasScript/researchWeb/Example01.js	/^        mouseleave: function() {$/;"	f
+AnonymousFunctioncb085b580800	aboutWEB/JavasScript/researchWeb/Example01.js	/^    $(".talk").on('mouseleave', function() {});$/;"	f
+Ant Build	.idea/workspace.xml	/^      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" \/>$/;"	i
+BlockChain	BlockChain_Example/BlockChain_EX.py	/^class BlockChain(object):$/;"	c
+Chat Chat	aboutWEB/JavasScript/researchWeb/Example01.html	/^        <h2>Chat Chat<\/h2>$/;"	i
+Commander	.idea/workspace.xml	/^      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING/;"	i
+Cvs	.idea/workspace.xml	/^      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" \/>$/;"	i
+Debug	.idea/workspace.xml	/^      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" \/>$/;"	i
+Default	.idea/workspace.xml	/^    <task active="true" id="Default" summary="Default task">$/;"	i
+Event Log	.idea/workspace.xml	/^      <window_info anchor="bottom" id="Event Log" side_tool="true" \/>$/;"	i
+Favorites	.idea/workspace.xml	/^      <window_info id="Favorites" side_tool="true" \/>$/;"	i
+Find	.idea/workspace.xml	/^      <window_info anchor="bottom" id="Find" order="1" \/>$/;"	i
+Hierarchy	.idea/workspace.xml	/^      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" \/>$/;"	i
+Inspection	.idea/workspace.xml	/^      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" \/>$/;"	i
+Message	.idea/workspace.xml	/^      <window_info anchor="bottom" id="Message" order="0" \/>$/;"	i
+PortNumber	BlockChain_Example/BlockChainServer_.py	/^	PortNumber = int(options.port)$/;"	v
+Project	.idea/workspace.xml	/^      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight/;"	i
+ProjectPane	.idea/workspace.xml	/^      <pane id="ProjectPane">$/;"	i
+Python Console	.idea/workspace.xml	/^      <window_info anchor="bottom" id="Python Console" \/>$/;"	i
+Run	.idea/workspace.xml	/^      <window_info anchor="bottom" id="Run" order="2" \/>$/;"	i
+Scope	.idea/workspace.xml	/^      <pane id="Scope" \/>$/;"	i
+Structure	.idea/workspace.xml	/^      <window_info id="Structure" order="1" side_tool="true" weight="0.25" \/>$/;"	i
+TODO	.idea/workspace.xml	/^      <window_info anchor="bottom" id="TODO" order="6" \/>$/;"	i
+Terminal	.idea/workspace.xml	/^      <window_info anchor="bottom" id="Terminal" \/>$/;"	i
+Version Control	.idea/workspace.xml	/^      <window_info anchor="bottom" id="Version Control" \/>$/;"	i
+__init__	BlockChain_Example/BlockChain_EX.py	/^	def __init__(self):$/;"	m	class:BlockChain
+allSelect	aboutWEB/JavasScript/EventListener/evtListener.html	/^    <label> <input type="checkbox"  id="allSelect">  전체선택 <\/label>$/;"	I
+allSelectChecked	aboutWEB/JavasScript/EventListener/evtListener.js	/^    function allSelectChecked() {$/;"	f	function:window.onload
+app	BlockChain_Example/BlockChainServer_.py	/^app = Flask(__name__)$/;"	v
+args	BlockChain_Example/BlockChainServer_.py	/^	options,args = parser.parse_args()$/;"	v
+blockchain	BlockChain_Example/BlockChainServer_.py	/^blockchain = BlockChain()$/;"	v
+btnInputMe	aboutWEB/JavasScript/researchWeb/Example01.html	/^                <button type="button" id="btnInputMe">입력<\/button>$/;"	I
+btnInputYou	aboutWEB/JavasScript/researchWeb/Example01.html	/^                <input type="text" id="inputYouText" style="width:80%" \/> <button type="button"/;"	I
+catName	aboutWEB/JavasScript/Scope/ScopeLevel02.js	/^    function catName(name) {$/;"	f	function:window.onload
+checkBySequen	aboutWEB/JavasScript/EventListener/evtListener.js	/^    function checkBySequen(param1) {$/;"	f	function:window.onload
+dict	Example03.py	/^dict = Example02.crawling_()$/;"	v
+dict_header	ChromeNetworkParsing/HttpHeaderParsing.py	/^dict_header = dict()$/;"	v
+displayName	aboutWEB/JavasScript/Scope/ScopeLevel03.js	/^        function displayName() {$/;"	f	function:window.onload.init
+displayName	aboutWEB/JavasScript/Scope/ScopeLevel03.js	/^        function displayName() {$/;"	f	function:window.onload.makeFunc
+foo	aboutWEB/JavasScript/Scope/ScopeLevel01.js	/^    function foo() {$/;"	f	function:window.onload
+foo2	aboutWEB/JavasScript/Scope/ScopeLevel01.js	/^    function foo2() {$/;"	f	function:window.onload
+full_chain	BlockChain_Example/BlockChainServer_.py	/^def full_chain():$/;"	f
+get_divide_range	IdeaScript/multiprocessing_rapid7.py	/^def get_divide_range(num,p):$/;"	f
+get_vulner_info	IdeaScript/multiprocessing_rapid7.py	/^def get_vulner_info(MpObj_dict_param1, MpObj_list_param2,min,max):$/;"	f
+hash	BlockChain_Example/BlockChain_EX.py	/^	def hash(block):$/;"	m	class:BlockChain
+init	aboutWEB/JavasScript/Scope/ScopeLevel03.js	/^    function init() {$/;"	f	function:window.onload
+inputMeText	aboutWEB/JavasScript/researchWeb/Example01.html	/^                <input type="text" id="inputMeText" style="width:80%" \/>$/;"	I
+inputYouText	aboutWEB/JavasScript/researchWeb/Example01.html	/^                <input type="text" id="inputYouText" style="width:80%" \/> <button type="button"/;"	I
+key	ChromeNetworkParsing/HttpHeaderParsing.py	/^            key = key.replace(":","")$/;"	v
+key	ChromeNetworkParsing/HttpHeaderParsing.py	/^        key,val = x.split(" ")[0], x.split(" ")[1::]$/;"	v
+last_block	BlockChain_Example/BlockChain_EX.py	/^	def last_block(self):$/;"	m	class:BlockChain
+lineDelete	aboutWEB/JavasScript/researchWeb/Example01.js	/^    var lineDelete = function() {$/;"	f	function:AnonymousFunctioncb085b580100
+makeAdder	aboutWEB/JavasScript/Scope/ScopeLevel03.js	/^    function makeAdder(x) {$/;"	f	function:window.onload
+makeFunc	aboutWEB/JavasScript/Scope/ScopeLevel03.js	/^    function makeFunc() {$/;"	f	function:window.onload
+mine	BlockChain_Example/BlockChainServer_.py	/^def mine():$/;"	f
+myWrite	aboutWEB/JavasScript/researchWeb/Example01.js	/^    var myWrite = function() {$/;"	f	function:AnonymousFunctioncb085b580100
+new_block	BlockChain_Example/BlockChain_EX.py	/^	def new_block(self,proof,previous_hash=None):$/;"	m	class:BlockChain
+new_transactions	BlockChain_Example/BlockChainServer_.py	/^def new_transactions():$/;"	f
+new_transactions	BlockChain_Example/BlockChain_EX.py	/^	def new_transactions(self,sender,recipdent,amount):$/;"	m	class:BlockChain
+node_identifier	BlockChain_Example/BlockChainServer_.py	/^node_identifier = str(uuid4()).replace("-"," ")$/;"	v
+onload	aboutWEB/JavasScript/EventListener/evtListener.js	/^window.onload = function () {$/;"	f	function:window
+onload	aboutWEB/JavasScript/Scope/ScopeLevel01.js	/^window.onload = function() {$/;"	f	function:window
+onload	aboutWEB/JavasScript/Scope/ScopeLevel02.js	/^window.onload = function() {$/;"	f	function:window
+onload	aboutWEB/JavasScript/Scope/ScopeLevel03.js	/^window.onload = function() {$/;"	f	function:window
+options	BlockChain_Example/BlockChainServer_.py	/^	options,args = parser.parse_args()$/;"	v
+parser	BlockChain_Example/BlockChainServer_.py	/^	parser = optparse.OptionParser()$/;"	v
+process_ret_json	IdeaScript/multiprocessing_rapid7.py	/^    process_ret_json = json.dumps(r.copy())$/;"	v
+processing_crawling	IdeaScript/multiprocessing_rapid7.py	/^def processing_crawling():$/;"	f
+proof_of_work	BlockChain_Example/BlockChain_EX.py	/^	def proof_of_work(self,last_proof):$/;"	m	class:BlockChain
+r	IdeaScript/multiprocessing_rapid7.py	/^    r = processing_crawling()$/;"	v
+scrolltest	aboutWEB/JavasScript/researchWeb/Example01.html	/^        <button type="button" id="scrolltest">스크롤확인<\/button>$/;"	I
+start	IdeaScript/multiprocessing_rapid7.py	/^    start = time.time()$/;"	v
+start	IdeaScript/multiprocessing_rapid7.py	/^start = time.time()$/;"	v
+startBkg	aboutWEB/JavasScript/EventListener/evtListener.js	/^    function startBkg() {$/;"	f	function:window.onload
+startBtn	aboutWEB/JavasScript/EventListener/evtListener.html	/^    <button id="startBtn"> 시작 <\/button>$/;"	I
+startDate	aboutWEB/JavasScript/researchWeb/Example01.js	/^    function startDate() { \/\/실시간 시간출력$/;"	f	function:AnonymousFunctioncb085b580100
+start_time	Example03.py	/^start_time = time.time()$/;"	v
+statistics.file.extensions.edit	.idea/workspace.xml	/^      <usages-collector id="statistics.file.extensions.edit">$/;"	i
+statistics.file.extensions.open	.idea/workspace.xml	/^      <usages-collector id="statistics.file.extensions.open">$/;"	i
+statistics.file.types.edit	.idea/workspace.xml	/^      <usages-collector id="statistics.file.types.edit">$/;"	i
+statistics.file.types.open	.idea/workspace.xml	/^      <usages-collector id="statistics.file.types.open">$/;"	i
+statistics.lifecycle.project	.idea/workspace.xml	/^      <usages-collector id="statistics.lifecycle.project">$/;"	i
+today	IdeaScript/multiprocessing_rapid7.py	/^    today = str(datetime.today()).split(".")[0].replace(" ", "_")  # 현재 날짜 가져오기$/;"	v
+today	IdeaScript/multiprocessing_rapid7.py	/^    today = today.replace(":","_")$/;"	v
+val	ChromeNetworkParsing/HttpHeaderParsing.py	/^        key,val = x.split(" ")[0], x.split(" ")[1::]$/;"	v
+valid_proof	BlockChain_Example/BlockChain_EX.py	/^	def valid_proof(last_proof,proof):$/;"	m	class:BlockChain
+value_data_parsing	ChromeNetworkParsing/HttpHeaderParsing.py	/^        value_data_parsing = ""$/;"	v
+value_data_parsing	ChromeNetworkParsing/HttpHeaderParsing.py	/^    value_data_parsing = ""$/;"	v
+yourWrite	aboutWEB/JavasScript/researchWeb/Example01.js	/^    var yourWrite = function() {$/;"	f	function:AnonymousFunctioncb085b580100
