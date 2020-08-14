@@ -52,7 +52,7 @@ $(document).ready(function() {
     }); // end of Enter Eey
 
     $('button').click(function() {
-        // console.log($(this).parents().eq());
+        // Button을 클릭한 곳의 상품 금액을 가져오기
         var obj = $(this).parents().eq().prevObject[0].outerText;
         JuiceValue = obj.slice(0, 5);
 
