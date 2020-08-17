@@ -22,7 +22,7 @@ var plusab = plus.partial(1, 3);
 console.log(plusab(5));
 
 console.log("=============== bind ==============");
-/* bind */
+/* bind 로 partial applicattion 만들기 */
 
 var plusa = plus.bind(null, 1);
 console.log(plusa(2, 3));

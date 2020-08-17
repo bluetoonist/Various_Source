@@ -1,3 +1,4 @@
+// currying도 partial application처럼 인자를 미리 고정할 수 있지만 하나씩만 고정한다는 것이 특징입니다.
 function multiplyThree(x) {
     return function(y) {
         return function(z) {
@@ -7,6 +8,7 @@ function multiplyThree(x) {
 }
 console.log(multiplyThree(4)(8)(2));
 
+// =======================================================
 Function.prototype.curry = function(one) {
     var origFunc = this;
     var target = origFunc.length;
