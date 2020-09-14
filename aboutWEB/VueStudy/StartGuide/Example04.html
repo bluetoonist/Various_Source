@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Vue js 공부용 -->
+    <!-- 조건문과 반복문-->
+    <!-- 엘리먼트 표시 여부 제어-->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+</head>
+
+<body>
+    <div id="app-4">
+        <ol>
+            <li v-for="todo in todos">
+                {{todo.text}}
+            </li>
+        </ol>
+    </div>
+
+
+</body>
+<script>
+    var app = new Vue({
+        el: '#app-4',
+        data: {
+            todos: [{
+                text: "Vue js 배우기"
+            }, {
+                text: "Vue 배우기"
+            }, {
+                text: "무언가 멋진 것을 만들기"
+            }]
+        }
+    })
+</script>
+
+<!-- 콘솔에서 app4.todos.push {{ text: 'New item'}} 으로 추가 가능 -->
+
+</html>
