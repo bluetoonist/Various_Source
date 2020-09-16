@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+    <div id='app'>
+        <p> {{ foo }}</p>
+        <button v-on:click="foo = 'baz'">Change It</button>
+    </div>
+
+
+</body>
+<script>
+    var obj = {
+        foo: 'bar'
+    }
+
+    var vm = new Vue({
+        el: "#example",
+        data: data
+    })
+
+    vm.$data == data;
+    vm.$el == document.getElementById('example')
+        // $watch 는 인스턴스 메소드 입니다.
+    vm.$watch('a', function(newVal, oldVal) {
+        // `vm.a`가 변경되면 호출 됩니다.
+
+
+    })
+</script>
+
+
+</html>
