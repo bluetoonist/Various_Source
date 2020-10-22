@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>자판기 관리</title>
+    <link rel="stylesheet" type="text/css" href="../css/admin.css">
+    <script type="text/javascript" src="../common/JS/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="../../japangi/js/admin.js"></script>
+    <script type="text/javascript" src="../../japangi/js/dbhandler.js"></script>
+    <script type="text/javascript" src="../../japangi/js/util.js"></script>
+</head>
+
+<body>
+
+    <table summary="상품 리스트 테이블 입니다.">
+        <caption>상품 리스트 테이블</caption>
+        <colgroup>
+            <col width="35%" />
+            <col width="20%" />
+            <col width="20%" />
+            <col/>
+        </colgroup>
+        <thead>
+            <tr>
+                <th>상품명</th>
+                <th>가격</th>
+                <th>재고수</th>
+                <th>수정</th>
+            </tr>
+        </thead>
+        <tbody id="japangi">
+            <tr class="record">
+                <td class="prodNm"></td>
+                <td class="price"></td>
+                <td class="cnt"></td>
+                <td class="btnMody">수정</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div>
+        <dl>
+            <dt>상품명</dt>
+            <dd><input type="text" id="prodNm"></dd>
+            <dt>가격</dt>
+            <dd><input type="text" id="price"></dd>
+            <dt>재고수</dt>
+            <dd><input type="text" id="cnt"></dd>
+            <dt>이미지</dt>
+            <dd><input type="file" /><img src="" alt="" id="preImg"></dd>
+        </dl>
+
+        <button type="button" id="btnRegist">등록</button>
+    </div>
+</body>
+
+</html>
